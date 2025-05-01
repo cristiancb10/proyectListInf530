@@ -85,9 +85,9 @@ osea pasa de falso a verdadero y de verdadero a falso-->
     <!--redirige a los diferentes URL y si debe enviar un dato en la URL se añade el id
         de usuario NO de la tarea -->
         <a href="../controllers/task_create.php?user_id=<?=$user['id']?>" class="button">Agregar nueva tarea</a>
-        <a href="../controllers/task_completed.php?user_id=<?= $user['id'] ?>" class="button">Ver tareas completadas</a>
-        <a href="../controllers/task_pending.php?user_id=<?= $user['id'] ?>" class="button">Ver tareas pendientes</a> 
-        <a href="../controllers/task_today.php?user_id=<?= $user['id'] ?>" class="button">Ver tareas para hoy</a>
+        <a href="../controllers/task_completed.php?user_id=<?=$user['id']?>" class="button">Ver tareas completadas</a>
+        <a href="../controllers/task_pending.php?user_id=<?=$user['id'] ?>" class="button">Ver tareas pendientes</a> 
+        <a href="../controllers/task_today.php?user_id=<?=$user['id']?>" class="button">Ver tareas para hoy</a>
         <a href="../index.php" class="button">Volver al inicio</a>
     </div>
     </body>
