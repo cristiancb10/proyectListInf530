@@ -1,0 +1,219 @@
+table{
+    width: auto;
+    position: relative;
+    border: 1.5px solid black;
+    border-spacing: 0cap;
+    padding: 5px;
+}
+th{
+    background-color: rgb(190, 194, 213);
+    border: 1.5px solid rgb(119, 118, 118);
+    color: #333;
+    padding: 10px;
+}
+
+td{
+    border-color: black;
+    padding: 10px;
+    border: 1.5px solid rgb(119, 118, 118);
+    background-color:rgb(56, 60, 83);
+    color: #f6f6f6;
+}
+
+input {
+    margin-bottom: 20px; /* Ajusta el valor según necesites */
+}
+.contenedor{
+    padding: 5px;
+}
+
+a.button {
+    padding: 8px 16px;
+    background: rgb(190, 194, 213);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+button{
+    padding: 8px 16px;
+    background: rgb(190, 194, 213);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+.formulario{
+    display: block;
+    width: 1100px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    background-color:rgba(81, 82, 122, 0.781);
+}
+.formUserCreate{
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formUserCreate input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+    background-color: rgb(40, 38, 60); 
+    color: #ffffff; 
+    border: 1px solid #6a6a6a; 
+    border-radius: 4px; 
+}
+
+.formUserUpdate{
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formUserUpdate input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+    background-color: rgb(40, 38, 60); 
+    color: #ffffff; 
+    border: 1px solid #6a6a6a; 
+    border-radius: 4px; 
+}
+
+.formUserDelete{
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formUserDelete input{
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+    background-color: rgb(40, 38, 60); 
+    color: #ffffff; 
+    border: 1px solid #6a6a6a; 
+    border-radius: 4px;     
+}
+
+.formTask{
+    display: block;
+    width: 950px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formTaskCreate{
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formTaskCreate textarea{
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+    background-color: rgb(40, 38, 60); 
+    color: #ffffff; 
+    border: 1px solid #6a6a6a; 
+    border-radius: 4px;  
+}
+
+.formTaskDelete{
+    display: block;
+    width: 550px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formTaskDelete input, textarea{
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+    background-color: rgb(40, 38, 60); 
+    color: #ffffff; 
+    border: 1px solid #6a6a6a; 
+    border-radius: 4px;     
+}
+
+.formTaskCompleted{
+    display: block;
+    width: 650px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formTaskPending{
+    display: block;
+    width: 720px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formTaskToday{
+    display: block;
+    width: 550px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.formTaskUpdate{
+    display: block;
+    width: 550px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(58, 56, 80);
+    box-sizing: border-box;
+    color: #ffffff; 
+}
+
+
